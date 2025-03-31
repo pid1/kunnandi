@@ -1,5 +1,5 @@
 
-# kunnandi
+# Kunnandi
 
 [![Super-Linter](https://github.com/pid1/kunnandi/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
@@ -15,10 +15,17 @@ Georg Wilhelm Friedrich Hegel, Phenomenology of Spirit §31
 
 - [About](#about)
 - [Complexity](#complexity)
+- [Decisions](#decisions)
 - [Leadership](#leadership)
   - [Enabling high performers](#enabling-high-performers)
 - [Opportunity Cost](#opportunity-cost)
 - [Socialization Syndrome](#socialization-syndrome)
+- [Learning Resources](#learning-resources)
+  - [Designing for Simplicity](#designing-for-simplicity)
+  - [Learning and Growth](#learning-and-growth)
+  - [Making an Impact](#making-an-impact)
+  - [Ownership and Leadership](#ownership-and-leadership)
+  - [Hands-On Activities](#hands-on-activities)
 
 ## About
 
@@ -46,15 +53,22 @@ By providing them in a single, continuously-updated document, their historical d
 
 Complexity has to live somewhere and the real consideration is constraints.
 
-To give the infrastructure engineering example, let’s assume we are deploying some AWS. We need an ALB, Route53 entries, a couple EC2 backends in an autoscaling group, an RDS database, an Elasticache instance, and a couple Lambdas for your cron jobs. You could deploy these ClickOps style, poking around the UI and setting everything up, or you could deploy them via your infrastructure as code tool of choice.
+Your organization needs some AWS resources spun up. In an organization with existing expertise in Terraform, Packer, and GitHub Actions, a CI/CD pipeline for this would be reasonable to create and maintain.
 
-We could also go all out, containerize the application, get a k8s cluster in a couple clicks and deploy our Helm chart. Done! Easy! “Simple”, right?
-
-Given an organization with a couple of folks who understand Terraform, Packer, and Github Actions, a CI/CD pipeline for this would be reasonable to create and maintain. Assuming no organizational understanding of these tools, the ability to make modifications within the UI, follow the upstream AWS documentation, and lean on AWS Support may be preferable until we can perform some cross-training and up-skill the team to where Terraform maintenance is reasonable. Given a team who has never maintained a Kubernetes cluster or containerized an app, would it be simple, or even responsible, to run this on EKS?
+With no organizational understanding of these tools, the ability to make modifications within the UI, follow the upstream AWS documentation, and lean on AWS Support may be preferable until we can perform some cross-training and up-skill the team to where Terraform maintenance is reasonable. Given a team who has never maintained a Kubernetes cluster or containerized an app, would it be simple, or even responsible, to run this on EKS?
 
 Is the “simple” solution consuming third-party cloud services? If the organization is too financially constrained for that, but person-hours, technological familiarity, and on-prem servers are all available to deploy an equivalent open source solution, is it then wrong to accept the operational complexity of maintaining that service rather than consuming it?
 
 Understanding constraints and risk are deeply intertwined. See [Leadership -> Enabling high performers -> Understand and communicate risk](#understand-and-communicate-risk).
+
+## Decisions
+
+- Decision velocity is as valuable as decision quality.
+- 70% of the information you wish you had is good enough.
+- Disagree and commit.
+- Ideas are gambles and failures are learning opportunities.
+- Data is good, but good decisions do not always require it.
+- One-way door decisions are made slowly and methodically. Two-way door decisions are made quickly and iteratively.
 
 ## Leadership
 
@@ -120,7 +134,8 @@ Socialization Syndrome is a particular feature of organizational rigidity. Disti
 
 Amazon avoids this through a conscientious process whereby:
 
-- Decision velocity is as valuable as decision quality 70% of the information you wish you had is good enough
+- Decision velocity is as valuable as decision quality
+- 70% of the information you wish you had is good enough
 - Disagree and commit means a genuine difference of opinion followed by candid discussion and subsequent quick, sincere commitment to a course of action
 - Amazon accepts that ideas are gambles and failures are learning opportunities.
 
@@ -132,18 +147,34 @@ Examine the incentivization structures your organization creates.
 - Do you embrace and incorporate the learning opportunity of failure?
 - Have you defined your goals effectively, such that success and failure are understood?
 
-Dmoes your team have an understanding of organizational risk tolerance as it relates to what “big bets” may or may not be feasible to take on? See [Leadership -> Enabling high performers -> Understand and communicate risk](#understand-and-communicate-risk).
+Does your team have an understanding of organizational risk tolerance as it relates to what “big bets” may or may not be feasible to take on? See [Leadership -> Enabling high performers -> Understand and communicate risk](#understand-and-communicate-risk).
 
 Socialization Syndrome constrains organizational adaptability and innovation. It culminates in an insidious narrowing of horizons and a diminishing capacity to envision novel possibilities over time. Delve into the complexities of your cultural fabric and foster a climate that rewards innovation, embraces risk, and empowers individuals to challenge conventional thinking.
 
-### Further Reading
+## Learning Resources
 
-Wrong, D. (1961) _The Oversocialized Conception of Man in Modern Sociology_
+### Designing for Simplicity
 
-Goffman, E. (1961) _Asylums: Essays on the social situation of mental patients and other inmates_
+[Preventing the Collapse of Civilization](https://archive.org/details/blow_20191208)
 
-Randolph, M. (2019) _That Will Never Work_
+### Learning and Growth
 
-Barabba, V. (2011) _The Decision Loom_
+[Embrace the Grind](https://jacobian.org/2021/apr/7/embrace-the-grind/)
+[Willingness to look stupid](https://danluu.com/look-stupid/)
+[How to ask good questions](https://jvns.ca/blog/good-questions/)
 
-Bezos, J. (2016) _2016 Letter to Shareholders_
+### Making an Impact
+
+[Being Glue](https://www.noidea.dog/glue)
+
+### Ownership and Leadership
+
+[Extreme Ownership](https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs-dp-1250183863/dp/1250183863/ref=dp_ob_title_bk)
+[The Dichotomy of Leadership](https://www.amazon.com/Dichotomy-Leadership-Balancing-Challenges-Ownership/dp/1250354943)
+[Turn the Ship Around!](https://www.amazon.com/Turn-Ship-Around-Leaders-Results/dp/1591846404)
+
+### Hands-On Activities
+
+[OverTheWire Wargames](https://overthewire.org/wargames/bandit/)
+[Hack The Box](https://www.hackthebox.com/)
+[TryHackMe](https://tryhackme.com/)

@@ -18,6 +18,7 @@ Georg Wilhelm Friedrich Hegel, Phenomenology of Spirit §31
 - [Decisions](articles/decisions.md)
 - [Leadership](articles/leadership.md)
   - [Enabling high performers](articles/leadership.md#enabling-high-performers)
+- [One Billion Tokens](articles/one-billion-tokens.md)
 - [Opportunity Cost](articles/opportunity-cost.md)
 - [Socialization Syndrome](articles/socialization-syndrome.md)
 - [Learning Resources](articles/learning-resources.md)

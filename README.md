@@ -27,6 +27,7 @@ Georg Wilhelm Friedrich Hegel, Phenomenology of Spirit §31
   - [Making an Impact](articles/learning-resources.md#making-an-impact)
   - [Ownership and Leadership](articles/learning-resources.md#ownership-and-leadership)
   - [Hands-On Activities](articles/learning-resources.md#hands-on-activities)
+- [Quiet Software](articles/quiet_software.md)
 
 ## About
 

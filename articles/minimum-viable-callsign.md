@@ -69,4 +69,5 @@ MARS and ARES are further out. Both are real-time commitments, and time is the b
 If you are in North Texas, find me on The Mighty 92 or 146.52.
 
 73,
- KJ5PTV
+
+KJ5PTV

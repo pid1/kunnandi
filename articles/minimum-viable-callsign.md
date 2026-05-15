@@ -8,7 +8,7 @@ I am KJ5PTV today, KA1PID once the FCC processes my vanity request. pid1, on the
 
 #### Emergency Communications
 
-Most of the emergency comms theater I have seen in IT involves operational procedures that have never been tested. I refuse to bring that mindset into a hobby. I wanted a station I could use if cell, power, and Internet were out, not a station I theorized would work in an emergency. By using my emergency station as my daily driver, I know it will work when I need it to.
+Most of the emergency theater I have seen in IT involves operational procedures that have never been tested. I refuse to bring that mindset into a hobby. I wanted a station I could use if cell, power, and Internet were out, not a station I theorized would work in an emergency. By using my emergency station as my daily driver, I know it will work when I need it to.
 
 #### A hobby, not more work
 

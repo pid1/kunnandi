@@ -54,6 +54,8 @@ The Baofeng menu is hostile. CHIRP for programming is essential.
 
 The hobby's deepest cultural problem is confusing gear acquisition with operating. I have no opinion on what radio you should buy. I strongly believe that you should be on the air with whatever you have or can afford.
 
+> After publishing, I learned that you can get a transceiver for the cost of shipping through a collaboration between qrz.com and GigaParts. They are currently out of stock, but this is a great option.
+
 ### What's next
 
 The General license opens HF, which is the actual answer to "communications that work without anyone else's infrastructure." NVIS on 40m or 80m off a wire antenna gets me regional coverage with nothing between me and the ionosphere. That is the version of the emergency-ready station I actually want, and the Technician privileges I have now are the apprenticeship for it.

@@ -8,7 +8,7 @@ I am KJ5PTV today, KA1PID once the FCC processes my vanity request. pid1, on the
 
 #### Emergency Communications
 
-Most of the emergency theater I have seen in IT involves operational procedures that have never been tested. I refuse to bring that mindset into a hobby. I wanted a station I could use if cell, power, and Internet were out, not a station I theorized would work in an emergency. By using my emergency station as my daily driver, I know it will work when I need it to.
+Most of the emergency theater in IT involves operational procedures that have never been tested. I wanted a station I could reliably use if cell, power, and Internet were out, not a station I theorized would work in an emergency. By using my emergency station as my daily driver, I know it will work when I need it to.
 
 #### A hobby, not more work
 
@@ -18,7 +18,7 @@ I have been a technologist for decades. Internet-bridged systems like EchoLink, 
 
 Analog FM is the lingua franca on 2m and 70cm. Anyone with a VHF or UHF radio in range can hear me. Digital modulation like DMR, D-STAR, YSF, or M17 splits the on-air community across incompatible codecs. They are technically interesting, and I will probably get there eventually. For year one, the goal is to show up on the local repeater and be heard by everyone, not by a subset of people who bought the same brand of radio I did.
 
-Pure FM, locally repeated or simplex, no internet involved.
+Pure FM, locally repeated or simplex, no Internet involved.
 
 ### Studying on paternity leave
 

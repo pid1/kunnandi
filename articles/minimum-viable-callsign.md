@@ -2,7 +2,7 @@
 
 I got my amateur radio technician license last month. On the air for under $200, I studied on paternity leave, and the whole setup is a minimum viable callsign: cheap enough to throw away, complete enough to operate, deliberately built for replacement.
 
-I am KJ5PTV today, KA1PID once the FCC processes my vanity request. pid1, on the air.
+I am KA1PID. pid1, on the air.
 
 ### What I wanted
 
@@ -72,4 +72,4 @@ If you are in North Texas, find me on The Mighty 92 or 146.52.
 
 73,
 
-KJ5PTV
+KA1PID

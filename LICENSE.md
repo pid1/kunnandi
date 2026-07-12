@@ -1,5 +1,5 @@
 # License
 
-Copyright 2024 Jonathan Roemer.
+Copyright 2026 Jonathan Roemer.
 
 All rights reserved.

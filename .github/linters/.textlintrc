@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "terminology": {
+      "defaultTerms": true,
+      "exclude": [
+        "Slack",
+        "copy[- ]past(e|ed|ing)?"
+      ]
+    }
+  }
+}

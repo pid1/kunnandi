@@ -4,22 +4,22 @@ Our family conscientiously chooses quiet software.
 
 There is no formal definition, but, like Justice Potter, we know it when we see it. Quiet software means no:
 
-* Advertisements
-* Calls to action
-* Up-sells
-* Gambling
-* Gamification
-* Clickbait
-* Un-configurable notifications
-* Visually and/or audibly distracting elements
-* Exploitative, manipulative, or addictive design patterns
-* Exploitative, obtuse, and/or manipulative monetization models
+- Advertisements
+- Calls to action
+- Up-sells
+- Gambling
+- Gamification
+- Clickbait
+- Un-configurable notifications
+- Visually and/or audibly distracting elements
+- Exploitative, manipulative, or addictive design patterns
+- Exploitative, obtuse, and/or manipulative monetization models
 
 Quiet software is:
 
-* All signal, no noise
-* Focused on the task at hand
-* Allows us to be present and productive without distraction
+- All signal, no noise
+- Focused on the task at hand
+- Allows us to be present and productive without distraction
 
 This does not mean luddism, and may not look like what you expect.
 

@@ -19,18 +19,13 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
 
       - name: Super-linter
-        uses: super-linter/super-linter@v8
+        uses: super-linter/super-linter@4ce20838b8ab83717e78138c5b3a1407148e0918 # v8.7.0
         env:
           # To report GitHub Actions status checks
-          # Pinned to the linter set super-linter ran before v8. The v8 upgrade
-          # turned on additional linters; they are disabled here so the version
-          # bump does not silently change what CI enforces. Re-enable and fix
-          # them deliberately, one at a time.
-          VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LINTER_RULES_PATH: .github/linters

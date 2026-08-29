@@ -27,5 +27,10 @@
             uses: super-linter/super-linter@v8
             env:
               # To report GitHub Actions status checks
+              # Pinned to the linter set super-linter ran before v8. The v8 upgrade
+              # turned on additional linters; they are disabled here so the version
+              # bump does not silently change what CI enforces. Re-enable and fix
+              # them deliberately, one at a time.
+              VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               LINTER_RULES_PATH: .github/linters

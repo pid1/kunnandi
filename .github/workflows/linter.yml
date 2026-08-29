@@ -19,12 +19,12 @@
 
         steps:
           - name: Checkout code
-            uses: actions/checkout@v4
+            uses: actions/checkout@v7
             with:
               fetch-depth: 0
 
           - name: Super-linter
-            uses: super-linter/super-linter@v7
+            uses: super-linter/super-linter@v8
             env:
               # To report GitHub Actions status checks
               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

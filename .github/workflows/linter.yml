@@ -1,36 +1,36 @@
 ---
+name: Lint
+
+on: # yamllint disable-line rule:truthy
+  push:
+  pull_request:
+
+permissions: {}
+
+jobs:
+  build:
     name: Lint
+    runs-on: ubuntu-latest
 
-    on: # yamllint disable-line rule:truthy
-      push:
-      pull_request:
+    permissions:
+      contents: read
+      packages: read
+      statuses: write
 
-    permissions: { }
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
-    jobs:
-      build:
-        name: Lint
-        runs-on: ubuntu-latest
-
-        permissions:
-          contents: read
-          packages: read
-          statuses: write
-
-        steps:
-          - name: Checkout code
-            uses: actions/checkout@v7
-            with:
-              fetch-depth: 0
-
-          - name: Super-linter
-            uses: super-linter/super-linter@v8
-            env:
-              # To report GitHub Actions status checks
-              # Pinned to the linter set super-linter ran before v8. The v8 upgrade
-              # turned on additional linters; they are disabled here so the version
-              # bump does not silently change what CI enforces. Re-enable and fix
-              # them deliberately, one at a time.
-              VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              LINTER_RULES_PATH: .github/linters
+      - name: Super-linter
+        uses: super-linter/super-linter@v8
+        env:
+          # To report GitHub Actions status checks
+          # Pinned to the linter set super-linter ran before v8. The v8 upgrade
+          # turned on additional linters; they are disabled here so the version
+          # bump does not silently change what CI enforces. Re-enable and fix
+          # them deliberately, one at a time.
+          VALIDATE_GITHUB_ACTIONS_ZIZMOR: false
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LINTER_RULES_PATH: .github/linters

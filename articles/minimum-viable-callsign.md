@@ -1,26 +1,26 @@
-## Minimum Viable Callsign
+# Minimum Viable Callsign
 
 I got my amateur radio technician license last month. On the air for under $200, I studied on paternity leave, and the whole setup is a minimum viable callsign: cheap enough to throw away, complete enough to operate, deliberately built for replacement.
 
 I am KA1PID. pid1, on the air.
 
-### What I wanted
+## What I wanted
 
-#### Emergency Communications
+### Emergency Communications
 
-Most of the emergency theater in IT involves operational procedures that have never been tested. I wanted a station I could reliably use if cell, power, and Internet were out, not a station I theorized would work in an emergency. By using my emergency station as my daily driver, I know it will work when I need it to.
+Most of the emergency theater in IT involves operational procedures that have never been tested. I wanted a station I could reliably use if cell, power, and internet were out, not a station I theorized would work in an emergency. By using my emergency station as my daily driver, I know it will work when I need it to.
 
-#### A hobby, not more work
+### A hobby, not more work
 
 I have been a technologist for decades. Internet-bridged systems like EchoLink, AllStarLink, IRLP, and Wires-X solve a different problem than the one I am solving, and they are adjacent to everything I already do. If I wanted to talk to people across a network, I have Discord, Slack, VoIP, Zoom, and a dozen other tools. The whole point of radio is the radio.
 
-#### Simplicity
+### Simplicity
 
 Analog FM is the lingua franca on 2m and 70cm. Anyone with a VHF or UHF radio in range can hear me. Digital modulation like DMR, D-STAR, YSF, or M17 splits the on-air community across incompatible codecs. They are technically interesting, and I will probably get there eventually. For year one, the goal is to show up on the local repeater and be heard by everyone, not by a subset of people who bought the same brand of radio I did.
 
-Pure FM, locally repeated or simplex, no Internet involved.
+Pure FM, locally repeated or simplex, no internet involved.
 
-### Studying on paternity leave
+## Studying on paternity leave
 
 With a three-year-old, a one-month-old, and a demanding career, there are no quiet evenings.
 
@@ -28,13 +28,13 @@ The paternity leave I took doubled as my study window. I studied two ways. HamSt
 
 The audio format is what made it work. Test when HamStudy says you are passing at 85% consistently.
 
-### The real Technician exam
+## The real Technician exam
 
-The Technician exam is 35 multiple-choice questions. The FCC website is the actual exam.
+The Technician exam is 35 multiple-choice questions. The FCC site is the actual exam.
 
 To get a callsign, you need an FRN. To get an FRN, you log into CORES. To pay your $35, you log into a different portal. To file your vanity request, you log in to ULS, which is technically the same system but does not feel like it. Each surface has its own session, its own UI from 1998, and its own login flow that may or may not now route through login.gov depending on which page caught you.
 
-### The hardware
+## The hardware
 
 The starting station is deliberately cheap and deliberately uninteresting.
 
@@ -56,7 +56,7 @@ The hobby's deepest cultural problem is confusing gear acquisition with operatin
 
 > After publishing, I learned that you can get a transceiver for the cost of shipping through a collaboration between qrz.com and GigaParts. They are currently out of stock, but this is a great option.
 
-### What's next
+## What's next
 
 The General license opens HF, which is the actual answer to "communications that work without anyone else's infrastructure." NVIS on 40m or 80m off a wire antenna gets me regional coverage with nothing between me and the ionosphere. That is the version of the emergency-ready station I actually want, and the Technician privileges I have now are the apprenticeship for it.
 
